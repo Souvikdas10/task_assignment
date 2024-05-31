@@ -1,0 +1,23 @@
+
+   <table >
+
+    <!-- <thead>
+      <tr>
+        <th >icon</th>
+        <th >coins</th>
+        <th >price</th>
+      </tr>
+    </thead> -->
+
+    <tbody >
+      <tr class="table-body">
+        <td><img [src]="crypto.image" class="card-img-top" height="50px" alt="{{ crypto.name }}"></td>
+
+        <td>{{crypto.name }}</td>
+
+        <td>${{ crypto.current_price }}</td>
+
+      </tr>
+    </tbody>
+
+  </table>
